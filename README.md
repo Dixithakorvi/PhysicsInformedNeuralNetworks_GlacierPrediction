@@ -12,12 +12,7 @@ This repository contains the implementation of Physics-Informed Neural Networks 
 ## Getting Started
 
 ### Prerequisites
-- Python 3.x
-- Pandas
-- NumPy
-- PyTorch
-- Matplotlib
-- scikit-learn
+- Python 3.x, Pandas, NumPy, PyTorch, Matplotlib, scikit-learn
 - Google Colab (for running the notebooks)
 
 ### Running the Code
@@ -42,10 +37,14 @@ The repository includes scripts for generating heatmap visualizations of the pre
 - After running the visualization sections of the notebooks, the heatmaps will be displayed directly in Google Colab.
 - Optionally, you can save these heatmaps as images in your Google Drive and reference them in this README.
 
-## Example Heatmap Visualization
-Below is an example of how you might display a heatmap visualization in your README:
+## Visualizations
+Below are the heatmap visualizations comparing the traditional sequential model and the Physics-Informed Neural Network model:
 
-![Heatmap of Glacier Melting Predictions](link_to_heatmap_image_in_your_repo)
+| Traditional Sequential Model | PINN Model |
+|------------------------------|------------|
+| ![Traditional Model Heatmap](link_to_traditional_model_heatmap) | ![PINN Model Heatmap](link_to_pinn_model_heatmap) |
+
+
 
 ## Contributing
 Feel free to fork this repository and submit pull requests to contribute to this project. You can also open an issue if you find any bugs or have suggestions for additional features.
