@@ -3,6 +3,13 @@
 ## Overview
 This repository contains the implementation of Physics-Informed Neural Networks (PINNs) to predict glacier melting dynamics using the heat equation. This approach integrates physical laws directly into the learning algorithms, enhancing prediction accuracy and reliability. The project includes two main neural network models: a traditional model and a Physics-Informed Neural Network model, each designed to simulate glacier melting under different environmental conditions.
 
+## Visualizations
+Below are the heatmap visualizations comparing the traditional sequential model and the Physics-Informed Neural Network model:
+
+| Traditional Sequential Model | PINN Model |
+|------------------------------|------------|
+| ![Traditional Model Heatmap](Visualizations/Sequentialheat.png) | ![PINN Model Heatmap](Visualizations/PINNheat.png) |
+
 ## Features
 - **Data Handling:** Load and preprocess glacier attribute data from CSV files.
 - **Neural Network Models:** Implementation of traditional and Physics-Informed Neural Networks (PINNs).
@@ -36,14 +43,6 @@ The repository includes scripts for generating heatmap visualizations of the pre
 - **Viewing Heatmaps**
 - After running the visualization sections of the notebooks, the heatmaps will be displayed directly in Google Colab.
 - Optionally, you can save these heatmaps as images in your Google Drive and reference them in this README.
-
-## Visualizations
-Below are the heatmap visualizations comparing the traditional sequential model and the Physics-Informed Neural Network model:
-
-| Traditional Sequential Model | PINN Model |
-|------------------------------|------------|
-| ![Traditional Model Heatmap](Visualizations/Sequentialheat.png) | ![PINN Model Heatmap](Visualizations/PINNheat.png) |
-
 
 
 ## Contributing
