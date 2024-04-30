@@ -30,12 +30,8 @@ This repository contains the implementation of Physics-Informed Neural Networks 
 4. **Execute the Notebooks**
 - Execute the cells in the notebook to train the models and generate predictions.
 
-### Visualization
-The repository includes scripts for generating heatmap visualizations of the predictions made by the PINN model. These visualizations depict how predicted glacier areas change with elevation and temperature.
-- **Viewing Heatmaps**
-- After running the visualization sections of the notebooks, the heatmaps will be displayed directly in Google Colab.
-  
 ## Visualizations
+The repository includes scripts for generating heatmap visualizations of the predictions made by the PINN model. These visualizations depict how predicted glacier areas change with elevation and temperature.
 Below are the heatmap visualizations comparing the traditional sequential model and the Physics-Informed Neural Network model:
 
 | Traditional Sequential Model | PINN Model |
