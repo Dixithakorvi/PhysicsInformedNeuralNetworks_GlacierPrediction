@@ -3,13 +3,6 @@
 ## Overview
 This repository contains the implementation of Physics-Informed Neural Networks (PINNs) to predict glacier melting dynamics using the heat equation. This approach integrates physical laws directly into the learning algorithms, enhancing prediction accuracy and reliability. The project includes two main neural network models: a traditional model and a Physics-Informed Neural Network model, each designed to simulate glacier melting under different environmental conditions.
 
-## Visualizations
-Below are the heatmap visualizations comparing the traditional sequential model and the Physics-Informed Neural Network model:
-
-| Traditional Sequential Model | PINN Model |
-|------------------------------|------------|
-| ![Traditional Model Heatmap](Visualizations/Sequentialheat.png) | ![PINN Model Heatmap](Visualizations/PINNheat.png) |
-
 ## Features
 - **Data Handling:** Load and preprocess glacier attribute data from CSV files.
 - **Neural Network Models:** Implementation of traditional and Physics-Informed Neural Networks (PINNs).
@@ -41,6 +34,13 @@ Below are the heatmap visualizations comparing the traditional sequential model 
 The repository includes scripts for generating heatmap visualizations of the predictions made by the PINN model. These visualizations depict how predicted glacier areas change with elevation and temperature.
 - **Viewing Heatmaps**
 - After running the visualization sections of the notebooks, the heatmaps will be displayed directly in Google Colab.
+  
+## Visualizations
+Below are the heatmap visualizations comparing the traditional sequential model and the Physics-Informed Neural Network model:
+
+| Traditional Sequential Model | PINN Model |
+|------------------------------|------------|
+| ![Traditional Model Heatmap](Visualizations/Sequentialheat.png) | ![PINN Model Heatmap](Visualizations/PINNheat.png) |
 
 ## Contributing
 Feel free to fork this repository and submit pull requests to contribute to this project. You can also open an issue if you find any bugs or have suggestions for additional features.
