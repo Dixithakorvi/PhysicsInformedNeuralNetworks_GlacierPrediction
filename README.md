@@ -42,7 +42,7 @@ Below are the heatmap visualizations comparing the traditional sequential model 
 
 | Traditional Sequential Model | PINN Model |
 |------------------------------|------------|
-| ![Traditional Model Heatmap](link_to_traditional_model_heatmap) | ![PINN Model Heatmap](link_to_pinn_model_heatmap) |
+| ![Traditional Model Heatmap](Visualizations/Sequentialheat.png) | ![PINN Model Heatmap](Visualizations/PINNheat.png) |
 
 
 
