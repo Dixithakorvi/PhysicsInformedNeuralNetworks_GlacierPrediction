@@ -1,9 +1,9 @@
 # PhysicsInformedNeuralNetworks_GlacierPrediction
 
-##Overview
+## Overview
 This repository contains the implementation of Physics-Informed Neural Networks (PINNs) to predict glacier melting dynamics using the heat equation. This approach integrates physical laws directly into the learning algorithms, enhancing prediction accuracy and reliability. The project includes two main neural network models: a traditional model and a Physics-Informed Neural Network model, each designed to simulate glacier melting under different environmental conditions.
 
-##Features
+## Features
 - **Data Handling:** Load and preprocess glacier attribute data from CSV files.
 - **Neural Network Models:** Implementation of traditional and Physics-Informed Neural Networks (PINNs).
 - **Custom Loss Function:** Incorporates the heat equation into the model's training process.
