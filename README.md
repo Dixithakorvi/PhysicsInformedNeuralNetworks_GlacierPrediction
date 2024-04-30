@@ -17,33 +17,30 @@ Below are the heatmap visualizations comparing the traditional sequential model 
 - **Visualization:** Heatmap visualizations of the model's predictions with respect to changes in elevation and temperature.
 
 ## Getting Started
-
 ### Prerequisites
-- Python 3.x, Pandas, NumPy, PyTorch, Matplotlib, scikit-learn
-- Google Colab (for running the notebooks)
+- **Languages and Libraries**: Python 3.x, Pandas, NumPy, PyTorch, Matplotlib, scikit-learn
+- **Platform**: Google Colab for running the notebooks
 
 ### Running the Code
 1. **Clone the Repository**
-2. **Open Google Colab**
+   ```bash
+   git clone https://github.com/yourusername/glacier-melting-prediction.git
+   cd glacier-melting-prediction
+2. **Upload Notebooks**
 - Upload the notebook files to Google Colab.
 - Ensure that all dataset paths are correctly set as per your Google Drive structure.
-
 3. **Install Required Libraries**
 - Run the following command in the Colab notebook to install the required libraries:
   ```python
   !pip install numpy pandas torch matplotlib scikit-learn
   ```
-
-4. **Run the Notebooks**
+4. **Execute the Notebooks**
 - Execute the cells in the notebook to train the models and generate predictions.
 
 ### Visualization
 The repository includes scripts for generating heatmap visualizations of the predictions made by the PINN model. These visualizations depict how predicted glacier areas change with elevation and temperature.
-
 - **Viewing Heatmaps**
 - After running the visualization sections of the notebooks, the heatmaps will be displayed directly in Google Colab.
-- Optionally, you can save these heatmaps as images in your Google Drive and reference them in this README.
-
 
 ## Contributing
 Feel free to fork this repository and submit pull requests to contribute to this project. You can also open an issue if you find any bugs or have suggestions for additional features.
