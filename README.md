@@ -24,8 +24,8 @@ Below are the heatmap visualizations comparing the traditional sequential model 
 ### Running the Code
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/glacier-melting-prediction.git
-   cd glacier-melting-prediction
+   git clone https://github.com/Dixithakorvi/PhysicsInformedNeuralNetworks_GlacierPrediction.git
+   cd PhysicsInformedNeuralNetworks_GlacierPrediction
 2. **Upload Notebooks**
 - Upload the notebook files to Google Colab.
 - Ensure that all dataset paths are correctly set as per your Google Drive structure.
